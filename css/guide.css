@@ -1,0 +1,288 @@
+#projectguide{
+        font-family: 'Source Sans Pro', sans-serif !important;
+        height:100%;
+        margin:0 20px 0 0;
+        padding-top:40px;
+        position:relative;
+        font-size:0.8rem;
+        max-height:100%;        
+}
+#projectguide a.pg-top {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#projectguide header{        
+        padding-top:0px;
+        padding-bottom:0px;
+}        
+#projectguide p{
+        font-size:0.8em;
+}
+#projectguide .pg-section-wrapper{
+        padding-top:30px;
+}
+#projectguide .pg-footer{
+        border-top:1px solid #f1f1f1;
+        padding-top:10px;
+        margin-top:30px;
+        font-size:0.7rem;
+}
+#projectguide a.pg-top-nav{
+        display:none;
+}
+#projectguide .pg-option-nav{
+        max-width:850px;
+        padding:20px 40px;        
+}
+
+#projectguide .prguide-settings-section{
+        background-color:#FFFFFF;
+        padding:15px 30px;
+        margin-top:30px;
+}
+#projectguide .prguide-settings-section h2{
+        border-bottom: 1px solid #000;
+        padding-bottom:10px;
+        font-size:1.3rem;
+}
+#projectguide .prguide-settings-section input[type=text]{
+        background-color:#FFFFFF;
+        padding:10px 20px;
+        width:100%;
+}
+
+#projectguide .prguide-settings-section label.sublabel{
+        line-height:30px;
+        background-color:#F0F0F0;
+        padding:3px 10px;                
+        color:#999999;
+        cursor:default;                
+}
+
+#projectguide textarea.prguide-nav-jsondata{
+        width:100% !important;
+        margin-top:50px;
+        background-color:#f1f1f1;
+        padding:7px 10px;
+        color:#aba9a9;
+        font-size:0.9rem;
+        display:none;
+}
+#projectguide textarea.prguide-nav-jsondata.prguide-debug{
+        display:inline;
+        width:100%;
+        padding:10px;
+        font-size:0.8rem;
+        color:#666666;
+        min-height:160px;
+        font-family: "Lucida Console", Monaco, monospace;
+}
+
+#projectguide .pg-deep-link{
+        background-color:#f1f1f1;
+        display:inline;        
+        padding:7px 10px;
+        color:#aba9a9;
+        font-size:0.9rem;
+}
+#projectguide .pg-section-bottom{
+        border-top:2px solid #f1f1f1;
+        margin-top:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-bottom:0px;
+}
+#projectguide .pg-section-content{
+        magin-top:10px;
+}
+#projectguide .pg-cf:before,
+#projectguide .pg-cf:after {
+        content: " ";  
+        display: table;
+}
+#projectguide .pg-cf:after {
+        clear: both;
+}
+#projectguide .pg-cf { 
+        *zoom: 1;
+}
+#projectguide .pg-hidden{
+        display:none;
+}
+#projectguide ul.pg-main-nav li span {
+        display:none;
+        color:#0073aa;
+        float:right;
+        font-size:1.2rem;
+        cursor:pointer;
+}
+#projectguide ul.pg-nav li a{
+        color:#000;
+        margin-right:20px;
+}
+#projectguide ul.pg-main-nav li{             
+        margin:0px;
+        padding:3px 10px;                
+}
+#projectguide ul.pg-main-nav li ul li{
+        padding:0 0 0 10px;
+}
+#projectguide ul.pg-main-nav li ul{
+        border:0px;
+}
+#projectguide ul.pg-main-nav-submenu{                              
+        font-size:0.9rem;     
+        margin-left:10px;
+        margin-top:0px;
+        margin-bottom:7px;
+}
+#projectguide ul.pg-main-nav-submenu li{
+        margin-bottom:0;
+}
+#projectguide ul.sub-onclick ul.pg-main-nav-submenu{
+        display:none;
+}
+#projectguide h1{
+        margin:0px;
+        font-size:1.7rem;
+        line-height:1.8rem;
+}
+#pg-nav{                
+        font-size:1.1rem;
+}
+#pg-nav ul.pg-main-nav li a{
+        line-height:1.6rem;   
+        text-decoration: none;
+}
+#projectguide a.pg-top-nav{
+        background-color:#0068d2;
+        padding:5px 10px;
+        color:#FFF;
+        text-decoration:none;
+}
+#projectguide .pg-back-to-top{
+        font-size:0.9rem;
+        padding-top:10px;
+}
+#pg-content{              
+        font-size:1.5em;
+}
+#pg-content .pg-section{
+        background-color:#FFF;
+        padding:20px 30px 0 30px;
+        margin-bottom:20px;
+}
+#projectguide .pg-section-content > *,         
+#projectguide .pg-section-content p, 
+#projectguide .pg-section-content iframe, 
+#projectguide .pg-section-content embed,
+#projectguide .pg-section-content object,
+#projectguide .pg-section-content img{
+        max-width:100% !important;
+        width:auto;
+        height:auto;
+}
+#pg-content h2.pg-section-title{                       
+        font-size:1.1em;
+        line-height:1.35em;
+        margin-top:0px;
+        margin-bottom:0px;
+        font-weight:lighter;
+        color:#54575b;
+}      
+#pg-content h2.pg-chapter-title{
+        font-size:1.6em;         
+        padding-bottom:10px;
+        
+}  
+#projectguide .pg-inner-wrapper{
+        clear:both;
+        position:relative;        
+}      
+#projectguide ul.pg-main-nav.pb-group-lines ul li{
+        border-left:1px dashed #cac9c9;
+}
+#projectguide ul.pg-main-nav.pb-group-lines ul li:first-of-type{  
+        padding-top:10px;
+}
+#projectguide ul.pg-main-nav.pb-group-lines ul li:last-of-type{
+        border-bottom:1px dashed #cac9c9;
+        padding-bottom:10px;
+}
+
+::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+}
+::-webkit-scrollbar-track-piece  {
+        background-color: #e5e5e5;
+}
+::-webkit-scrollbar-thumb:vertical {
+        height: 30px;
+        background-color: #d5d5d5;
+}
+
+
+        
+@media only screen and (min-width :768px){
+
+        #pg-content{              
+                width:70%;
+                float:right;                    
+        }
+        #pg-nav{                
+                width:30%;           
+                float:left;                        
+        }        
+        #projectguide .pg-sticky{         
+                top:60px;                  
+                bottom:20px;
+                position: fixed;  
+                width:300px;
+                overflow-y: auto;
+                overflow-x: hidden;
+        }             
+       #projectguide .pb-group-lines ul.pg-main-nav-submenu li{
+                margin-left:5px;                
+        }
+        #projectguide .pb-group-lines ul.pg-main-nav-submenu li a{
+                padding-left:10px;
+        }
+        
+}
+
+@media only screen and (min-width : 1200px) {
+        #projectguide{
+                max-width:1000px;
+        }
+        #pg-content{              
+                width:75%;
+                float:right;          
+                margin-left:0px;                
+        }
+        #pg-nav{                
+                width:25%;
+                max-width:300px;
+                float:left;         
+                overflow-x: auto;                
+        }          
+        #projectguide .pg-sticky{                     
+                width:250px;                
+        }
+        #pg-content .pg-section{
+                background-color:#FFF;
+                padding:20px 30px 10px 30px;
+                margin-bottom:0;                  
+                max-width:750px !important;
+        }
+        #projectguide .pg-section-content{
+                max-width:750px !important;
+        }         
+        #projectguide ul.pg-main-nav{
+                max-width:90%;      
+        }    
+        
+}

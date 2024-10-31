@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Project Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 12:49+0000\n"
+"PO-Revision-Date: 2016-11-09 12:49+0000\n"
+"Last-Translator: Tobias Karnetzke <t.karnetzke@athoss.de>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: project-guide.php:37 inc/admin.php:726
+msgid "Navigation"
+msgstr "Navigation"
+
+#. Name of the plugin
+#: inc/admin.php:47 inc/admin.php:529 inc/posttype.php:30
+msgid "Project Guide"
+msgstr "Project Guide"
+
+#: inc/admin.php:57 inc/admin.php:58
+msgid "Builder"
+msgstr "Konfigurator"
+
+#: inc/admin.php:65 inc/admin.php:66
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/admin.php:495
+msgid "back to top"
+msgstr "nach oben"
+
+#: inc/admin.php:497
+msgid "edit content"
+msgstr "Inhalt bearbeiten"
+
+#: inc/admin.php:540
+msgid "It looks like nothing has been setup yet!"
+msgstr "Anscheinend wurde noch keine Dokumentation erstellt."
+
+#: inc/admin.php:543
+msgid "Create section content"
+msgstr "Erstelle Sektionsinhalt"
+
+#: inc/admin.php:544 inc/admin.php:598
+msgid "Project Guide Builder"
+msgstr "Project Guide Konfigurator"
+
+#: inc/admin.php:553
+msgid "Edit Guide"
+msgstr "Project Guide bearbeiten"
+
+#: inc/admin.php:571
+msgid "Top"
+msgstr "Hoch"
+
+#: inc/admin.php:572
+msgid "Created with"
+msgstr "Erstellt mit"
+
+#: inc/admin.php:572
+msgid "Project Guide Plugin"
+msgstr "Project Guide Plugin"
+
+#: inc/admin.php:572
+msgid "Version: "
+msgstr "Version:"
+
+#: inc/admin.php:604
+msgid "Drag"
+msgstr "Ziehen"
+
+#: inc/admin.php:614
+msgid "New Content"
+msgstr "Neuer Inhalt"
+
+#: inc/admin.php:616
+msgid "Chapter headline without content"
+msgstr "Kapitel&uuml;berschrift ohne Inhalt"
+
+#: inc/admin.php:617
+msgid "Add content from project guide"
+msgstr "Inhalt aus Project Guide Thema"
+
+#: inc/admin.php:620
+msgid "Add content from page"
+msgstr "Inhalt aus Seite"
+
+#: inc/admin.php:623
+msgid "Add content from post"
+msgstr "Inhalt aus Beitr&auml;g"
+
+#: inc/admin.php:637
+msgid "View Guide"
+msgstr "Dokumentation anzeigen"
+
+#: inc/admin.php:684
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: inc/admin.php:694
+msgid "Project Guide Settings"
+msgstr "Project Guide Einstellungen"
+
+#: inc/admin.php:699 inc/posttype.php:19 inc/posttype.php:20
+msgid "Guide"
+msgstr "Dokumentation"
+
+#: inc/admin.php:703
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/admin.php:705
+msgid "Disable guide menu."
+msgstr "Men&uuml; deaktivieren"
+
+#: inc/admin.php:708
+msgid "Permissions"
+msgstr "Zugriffsrechte"
+
+#: inc/admin.php:710
+msgid "Grant roles access to the guide."
+msgstr "Erlaube Bennutzerrollen den Zugriff"
+
+#: inc/admin.php:713
+msgid "Headline"
+msgstr "&Uuml;berschrift"
+
+#: inc/admin.php:715
+msgid "Individual guide headline."
+msgstr "Individuelle &Uuml;berschrift für die Dokumentation."
+
+#: inc/admin.php:718
+msgid "Menu title"
+msgstr "Men&uuml; Titel"
+
+#: inc/admin.php:720
+msgid "Individual dashboard menu title."
+msgstr "Individuelle Bezeichnung f&uuml;r den Dashboard-Men&uuml;punkt."
+
+#: inc/admin.php:730
+msgid "Chapter numbering"
+msgstr "Kapitelnummerierung"
+
+#: inc/admin.php:732
+msgid "Enable number prefix."
+msgstr "Nummerierung voranstellen."
+
+#: inc/admin.php:735
+msgid "Group lines"
+msgstr "Gruppenlinien"
+
+#: inc/admin.php:737
+msgid "Enable navigation group lines."
+msgstr "Aktiviere Linien-Gruppierung für Submen&uuml;s"
+
+#: inc/admin.php:740
+msgid "Open on click"
+msgstr "&Ouml;ffne nach Klick"
+
+#: inc/admin.php:742
+msgid "Show subnavigation on click."
+msgstr "Submen&uuml;s erst nach Klick anzeigen."
+
+#: inc/admin.php:749
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/admin.php:753
+msgid "Debug"
+msgstr "Debug"
+
+#: inc/admin.php:755
+msgid "Show debugging information."
+msgstr "Zeige Debug Informationen."
+
+#: inc/posttype.php:21 inc/posttype.php:24
+msgid "New Topic"
+msgstr "Neues Thema"
+
+#: inc/posttype.php:22
+msgid "Add Topic"
+msgstr "Thema anlegen"
+
+#: inc/posttype.php:23
+msgid "Edit Topic"
+msgstr "Thema bearbeiten"
+
+#: inc/posttype.php:25
+msgid "View Topic"
+msgstr "Thema anzeigen"
+
+#: inc/posttype.php:26
+msgid "Search Topic"
+msgstr "Suche Thema"
+
+#: inc/posttype.php:27 inc/posttype.php:28
+msgid "No Topics found"
+msgstr "Keine Themen gefunden"

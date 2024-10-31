@@ -1,0 +1,335 @@
+
+#projectguide .prguide-notice{        
+        padding:30px;
+        background-color: #e9e9e9;
+        display:inline-block;
+        font-size:1.1rem;
+}
+
+#projectguide .prguide-submit-nav-form p.submit{
+        margin-top:0px;
+}
+
+#projectguide .dd {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:100%;
+        list-style:  none;
+        font-size:1em;
+        line-height:1.2em;
+}
+
+#projectguide .dd-edit-box input{
+        background-color:#ffffff;
+        padding: 2px; 
+}
+
+#projectguide .dd-edit-box input,
+#projectguide .dd-edit-box textarea {
+        border: 1px dashed #000000;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background: transparent;
+        text-overflow:ellipsis;
+        outline: none;
+        color:  #000;
+        text-shadow: none;
+        width:  40%;
+        margin-right:20px;
+}
+#projectguide .dd-edit-box input::selection,
+#projectguide .dd-edit-box textarea::selection {
+        color: #fff;
+        background: #0e90d2;
+}
+#projectguide .dd-edit-box input:focus,
+#projectguide .dd-edit-box textarea:focus {
+        text-shadow: none;
+}
+#projectguide .dd-button-container .custom-button-example {
+        color: #000;
+        text-align: center;
+        padding: 1px 4px;
+}
+#projectguide .dd-edit-box select {
+        margin-top:-3px;
+        width: 30%;
+}
+#projectguide .dd-edit-box > * {
+        vertical-align: top;
+}
+#projectguide .dd-edit-box input,
+#projectguide .dd-edit-box select, 
+#projectguide .dd-edit-box textarea {
+        margin-bottom: 0;
+}
+#projectguide .dd-edit-box {
+        position: relative;
+}
+#projectguide .dd-edit-box i {
+        right: 0;
+        overflow: hidden;
+        cursor:pointer;
+        position: absolute;
+        font-style: normal;
+        font-weight:19px;
+}
+#projectguide .dd-item-blueprint {
+        display: none;
+}
+#projectguide .dd > .dd-list {
+        min-height: 40px;
+}
+#projectguide .dd-list {
+        display: block;
+        position:relative;
+        margin:  0;
+        padding: 0;
+        list-style: none;
+}
+#projectguide .dd-list .dd-list {
+        left: 30px;
+        margin-right: 30px;
+}
+#projectguide .dd-collapsed .dd-list {
+        display: none;
+}
+#projectguide .dd-item,
+#projectguide .dd-empty,
+#projectguide .dd-placeholder {        
+        display:  block;
+        position: relative;
+        margin:0;
+        padding:  0;
+        min-height:  20px;
+        font-size:0.8rem;
+        line-height: 1.0rem;
+}
+#projectguide .dd-handle {
+        cursor: move;
+        display:block;
+        margin: 5px 0;
+        padding:5px 10px;
+        color:  #000;
+        text-decoration: none;
+        font-weight:bold;
+        border: 1px solid #aaa;
+        background:#c8c8c8;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        box-sizing:border-box;
+        -moz-box-sizing: border-box;
+}
+#projectguide .dd-handle:hover {
+        color:#2ea8e5;
+        background: #fff;
+}
+
+#projectguide  .dd-edit-box select {
+    padding: 2px;    
+    height: 32px;
+}
+
+#projectguide .dd-item > button {
+        display:  inline-block;
+        position: relative;
+        cursor:pointer;
+        float: left;
+        width: 24px;
+        height:20px;
+        margin:5px 5px 5px 30px;
+        padding:  0;
+        white-space: nowrap;
+        overflow: hidden;
+        border:0;
+        background:  transparent;
+        font-size:12px;
+        line-height: 1;
+        text-align:  center;
+        font-weight: bold;
+        color: black;
+}
+#projectguide .dd.domenu .dd-new-item {
+        background: transparent;
+        border: 3px dotted #8F8F8F;
+        border-radius: 0px;
+        width: 100%;
+        height: 35px;
+        font-size: 29px;
+        color: #8F8F8F;
+        outline: none;        
+}
+
+/* @since > 0.13.29 */
+#projectguide .dd-item .item-remove,
+#projectguide .dd-item .item-remove-confirm,
+#projectguide .dd-item .item-add {
+        outline: none;
+}
+#projectguide .dd-item .dd-button-container button {
+        border:1px solid #898989;
+        border-radius: 0px;        
+        cursor:pointer;
+}
+#projectguide .dd-item .dd-button-container .item-add {
+        background-color: #0073aa;
+        border:none;
+        color:#ffffff;
+        text-shadow:none;
+        box-shadow: none;
+        margin-top:5px;
+}
+
+#projectguide .item-savedata{
+        background-color: #14aa00;
+        border-color:  #14aa00;
+        color:#FFF;
+        transition: background-color 0.35s;
+        cursor:pointer;
+        outline:none;
+        border:none;
+        margin-top:2px;
+}
+#projectguide .dd-item .dd-button-container .item-remove {
+        background-color: #ff5555;
+        border:  none;
+        color:#FFF;
+        transition: background-color 0.35s;
+}
+#projectguide .dd-item .dd-button-container .item-remove-confirm {
+        background-color: #ffa155;
+        transition: background-color 0.35s;
+        border-color:  #ad7232;
+}
+#projectguide .item-remove-confirm {
+        background: #ffce66;
+}
+#projectguide .dd-item .dd-button-container {
+        position: absolute;
+        height:19px;
+        padding:  0 5px;
+        top:4px;
+        overflow: visible;
+        display:  none;
+        right: 0;
+}
+/* end @since > 0.13.29 */
+#projectguide .dd3-item > button:first-child {
+        margin-left: 30px;
+}
+.dd-item > button:before {
+        display:  block;
+        position: absolute;
+        width: 100%;
+        text-align:  center;
+        text-indent: 0;
+}
+#projectguide .dd-placeholder,
+#projectguide .dd-empty {
+        margin:  5px 0;
+        padding: 0;
+        min-height:30px;
+        background: #D6F2FF;
+        border: 1px dashed #6C9AB1;
+        box-sizing:border-box;
+        -moz-box-sizing: border-box;
+}
+#projectguide .dd-empty {
+        border:  1px dashed #bbb;
+        min-height:  100px;
+        background-color: #e5e5e5;
+        background-size:  60px 60px;
+        background-position: 0 0, 30px 30px;
+}
+
+/**
+ * Draggable Handles
+ */
+#projectguide .dd3-content {
+        display:block;
+        height: 100%;
+        margin: 5px 0;
+        height:38px;
+        padding:5px 10px 5px 40px;
+        color: #0073aa;
+        text-decoration:none;
+        font-weight: normal;
+        font-size:1.2em;
+        border: 1px solid #cfcfcf;
+        background: #ffffff;
+        -webkit-border-radius: 0px;
+        border-radius:0px;
+        box-sizing:border-box;
+        -moz-box-sizing:  border-box;
+}
+#projectguide .dd3-content:hover {
+        color:#000;
+        background: #e8e8e8; 
+        border-color:#cccccc;
+}
+#projectguide .dd3-content span{
+        line-height:25px;
+}
+#projectguide .dd-dragel > .dd3-item > .dd3-content {
+        margin: 0;
+}
+#projectguide .dd3-handle {
+        position: absolute;
+        margin: 0;
+        left:0;
+        top:0;
+        cursor: move;
+        width:  30px;
+        height:38px;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 1px solid #cfcfcf;
+        text-shadow:none;
+        background:  #e8e8e8;
+        color:#e8e8e8;        
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+}
+#projectguide .dd3-handle:before {
+        content:  '\2263';
+        display:  block;
+        position: absolute;
+        left:0;
+        top: 3px;
+        width: 100%;
+        text-align:  center;
+        text-indent: 0;
+        color: #8c8c8c;
+        font-size:20px;
+        font-weight: normal;
+        padding-top:6px;
+}
+#projectguide .dd3-handle:hover {
+        background: #c8c8c8;
+}
+#projectguide .dd3-content:hover .dd-button-container {
+        display: block;
+        transition: display 2s;
+}
+#projectguide .dd .dd-new-item {
+        width: 100%;
+        border: 2px dashed #BDBDBD;
+        background: transparent;
+        border-radius: 0px;
+        font-size: 21px;
+        color: #BDBDBD;
+        cursor: pointer;
+        transition: border 0.35s ease 0s, color 0.35s ease 0s;
+        outline: none;
+        margin-bottom:20px;
+        margin-top:20px;
+}
+#projectguide .dd .dd-new-item:hover {
+        border: 2px dashed #595858;
+        color: #595858;
+        transition: border 0.35s ease 0s, color 0.35s ease 0s;
+}
